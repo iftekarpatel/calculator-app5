@@ -1,3 +1,4 @@
+ 
 from calc_func import add, subtract, divide,multiply,calculate_area
 
 def main():
@@ -7,6 +8,7 @@ def main():
 3. Multiply
 4. Divide
 5. Calculate Area of Rectangle""")
+
     
     choice = input("Select the function (1, 2, 3, 4, or 5): ")
     
@@ -32,6 +34,8 @@ def main():
         print(f"The area of the rectangle is: {calculate_area(length, width)}")
     else:
         print("Invalid choice. Please select 1, 2, 3, 4, or 5.")
+
+        
 
 if __name__ == "__main__":
     main()
