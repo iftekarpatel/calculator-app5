@@ -1,5 +1,7 @@
  
-from calc_func import add, subtract, divide,multiply,calculate_area
+from calc_func import add, subtract, divide
+from area import calculate_area
+from calc_multiply import multiply
 
 def main():
     print("""Select the function from the given options:
