@@ -8,6 +8,7 @@ def main():
 4. Divide""")
     
     choice = input("Select the function (1, 2, 3, or 4): ")
+    choice = input("Select the function (1, 2, 3, or 4): ")
     
     if choice == "1":
         a = float(input("Enter the first number: "))
@@ -26,6 +27,7 @@ def main():
         b = float(input("Enter the second number: "))
         print(f"The result of division is: {divide(a, b)}")
     else:
+        print("Invalid choice. Please select 1, 2, 3, or 4.")
         print("Invalid choice. Please select 1, 2, 3, or 4.")
 
 if __name__ == "__main__":
